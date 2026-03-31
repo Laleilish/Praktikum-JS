@@ -84,7 +84,6 @@ btn.addEventListener("click", function() {
   } else {
     pesan.innerText = `Halo, ${nama}! Kamu terdaftar di TechConf 2024!`;
     pesan.style.color = "#22c55e";
-
     input.value = "";
   }
 });
